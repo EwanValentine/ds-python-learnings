@@ -109,7 +109,7 @@ segmented_rfm['monetary_value'] = segmented_rfm['monetary_value'].apply(FMScore,
 
 segmented_rfm['RFMScore'] = segmented_rfm.r_quantile.map(str)
 + segmented_rfm.f_quantile.map(str)
-+ segmented_rfm.m_quantile.map(str)
++ segmented_rfm.r_quantile.map(str)
 
 segmented_rfm.head()
 
