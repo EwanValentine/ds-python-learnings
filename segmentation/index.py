@@ -115,4 +115,3 @@ segmented_rfm.head()
 
 segmented_rfm[segmented_rfm['RFMScore'] == '111'].sort_values(
     'monetary_value', ascending=False).head(10)
-
